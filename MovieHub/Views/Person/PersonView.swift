@@ -147,7 +147,7 @@ struct PersonView: View {
                                         if personFetcher.person?.gender == 1 {
                                             Text("Female")
                                                 .font(.system(size: 15))
-                                        } else if personFetcher.person?.gender == 0 {
+                                        } else if personFetcher.person?.gender == 2 {
                                             Text("Male")
                                                 .font(.system(size: 15))
                                         }
